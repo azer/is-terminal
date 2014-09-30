@@ -17,11 +17,12 @@ package main
 
 import (
   "github.com/azer/is-terminal"
+  "syscall"
   "fmt"
 )
 
 func () {
-  fmt.Println(isterminal.IsTerminal())
+  fmt.Println(isterminal.IsTerminal(syscall.Stdout))
   // => true or false
 }
 ```
