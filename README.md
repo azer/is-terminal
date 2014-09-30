@@ -2,6 +2,8 @@
 
 Returns true or false depending on if the `os.Stdout` is associated with a terminal.
 
+Extracted from [Sirupsen/logrus](https://github.com/Sirupsen/logrus)
+
 ## Install
 
 ```bash
